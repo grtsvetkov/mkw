@@ -1,0 +1,19 @@
+<template name="pool">
+
+    {{#with state}}
+
+        {{#if eq . 'wait'}}
+            wait..
+        {{/if}}
+
+        {{#if eq . 'accept'}}
+            <button id="accept" type="button">accept</button>
+        {{/if}}
+
+        {{#if eq . 'game'}}
+            <button id="game" type="button">game</button>
+        {{/if}}
+
+    {{/with}}
+
+</template>

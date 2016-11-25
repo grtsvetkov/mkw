@@ -1,0 +1,16 @@
+<template name="gameLayout">
+    {{#with state}}
+        {{#if eq . 'loading'}}
+            Loading
+        {{/if}}
+
+        {{#if eq . 'run'}}
+            {{> game}}
+        {{/if}}
+    {{/with}}
+</template>
+
+<template name="game">
+
+</template>
+

@@ -1,0 +1,36 @@
+# Meteor packages used by this project, one per line.
+# Check this file (and the other files in this directory) into your repository.
+#
+# 'meteor add' and 'meteor remove' will edit this file for you,
+# but you can also edit it by hand.
+
+http
+meteor-base
+mongo
+blaze-html-templates
+reactive-var
+jquery
+tracker
+
+standard-minifier-css
+standard-minifier-js
+es5-shim
+ecmascript
+shell-server
+
+
+iron:router
+
+aldeed:collection2
+
+juliancwirko:s-alert
+juliancwirko:s-alert-stackslide
+juliancwirko:s-alert-flip
+
+rzymek:moment-locale-ru
+
+mizzao:user-status
+
+accounts-base
+accounts-oauth
+accounts-password
